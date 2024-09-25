@@ -51,19 +51,76 @@ body {
 }
 
 .zn {
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    text-align: left;
 }
 
 h1 {
     font-family: "Montserrat Bold", sans-serif;
-    font-size: 35px;
+    font-size: 45px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
 }
 
-.selfPortrait {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 25px;
+h2 {
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#selfPortrait {
+    width: 500%;
+    padding-left: 5%;
+    margin-right: 5%;
+    max-width: 300px;
+    min-width: 150px;
+}
+
+#columnContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    align-items: center;
+    flex-wrap:inherit
+}
+
+#inspoContainer {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.paragraph {
+    text-align: justify;
+    margin-right: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #CBB9CB;
+    text-align: auto;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
