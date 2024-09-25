@@ -100,12 +100,21 @@ h3 {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    background-color: aquamarine;
+    flex-wrap: wrap;
 }
 
 .paragraph {
     text-align: justify;
     margin-right: 5%;
     font-family: "Montserrat", sans-serif;
+}
+
+.inspoParagraph {
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    width: 30%;
 }
 
 footer {
@@ -123,4 +132,8 @@ footer a {
     font-size: 23px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.test img {
+    width: 50%;
 }
