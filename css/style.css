@@ -188,4 +188,25 @@ footer a {
     padding-bottom: 10%;
 }
 
+ol {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: space-around;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 25px;
+    color: rgb(140, 98, 148)
+}
 
+ol a {
+    text-decoration: none;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
