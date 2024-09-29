@@ -157,7 +157,7 @@ h3 {
 .inspoParagraph {
     text-align: justify;
     font-family: "Montserrat", sans-serif;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 footer {
@@ -175,6 +175,7 @@ footer a {
     font-size: 23px;
     padding-left: 15px;
     padding-right: 15px;
+    color: rgb(140, 98, 148);
 }
 
 .inspoImg img {
@@ -191,11 +192,15 @@ footer a {
 ol {
     display: flex;
     flex-direction: row;
+    padding-top: 5%;
     overflow-x: scroll;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: "Montserrat Bold", sans-serif;
     font-size: 25px;
-    color: rgb(140, 98, 148)
+    color: rgb(140, 98, 148);
+    background-color: rgb(195, 184, 168);
+    height: 400px;
+    margin-bottom: 5%;
 }
 
 ol a {
@@ -205,8 +210,66 @@ ol a {
     color: black;
 }
 
+.songImg {
+    padding-top: 20%;
+    height: 50%;
+}
+
+#sayaImage {
+    padding-top: 5%;
+    height: 50%;
+}
+
+li {
+    padding-right: 10%;
+}
+
 ul {
     display: flex;
     flex-direction: row;
+    padding-top: 5%;
     overflow-x: scroll;
+    justify-content: space-between;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 20px;
+    color: rgb(140, 98, 148);
+    background-color: rgb(195, 184, 168);
+    height: 400px;
+    margin-bottom: 5%;
+}
+
+.placeImage {
+    padding-top: 5%;
+    height: 75%;
+}
+
+ul a {
+    text-decoration: none;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+#treeList {
+    height: 600px;
+}
+
+.treeImage {
+    padding-top: 10%;
+    height: 50%;
+}
+
+#oakImage {
+    padding-top: 3%;
+    height: 50%;
+}
+
+#ginkgoImage {
+    padding-top: 9%;
+    height: 50%;
+    margin-right: 200px;
+}
+
+ul p {
+    padding-top: 8%;
 }
